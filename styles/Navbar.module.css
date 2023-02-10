@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  place-items: center;
+  height: 10vh;
+  width: 100;
+  margin: 32px 120px;
+  padding-right: 15px;
+  border-radius: 5em;
+  border-color: black;
+  border-style: outset;
+  text-decoration: none;
+}
+.content {
+  color: black;
+  margin: 10px;
+  list-style: none;
+  font-size: 34px;
+  font-weight: 600;
+  text-decoration: none;
+}
