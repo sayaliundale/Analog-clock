@@ -1,13 +1,12 @@
 import Link from "next/link";
 import styles from "../styles/Navbar.module.css";
 import Image from 'next/image';
-import style from "../styles/Logo.module.css";
 
 export default function Navbar() {
   return (
     <nav className={styles.navbar}>
-    <div className={style.logo}>
-     <Image src="/acmLogo1.png" width={200} height={68} />
+    <div className={styles.logo}>
+     <Image src="/acmLogo1.png" width={200} height={65} />
     </div>
       <Link href="/" className={styles.content}>
         Home

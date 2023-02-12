@@ -1,4 +1,6 @@
 import styles from "../styles/About.module.css";
+import Image from "next/image";
+
 
 const About = () => {
   return (
@@ -13,6 +15,9 @@ const About = () => {
           Chapter organizes a number of events,seminars,talks, and workshops for
           its members.It aims to promote Computer Science Culture.
         </p>
+        <div className={styles.logo2}>
+          <Image src="/acmLogo.png" width={400} height={200} />
+        </div>
       </div>
     </div>
   );
