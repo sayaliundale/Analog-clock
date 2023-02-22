@@ -19,3 +19,9 @@
   font-weight: 600;
   text-decoration: none;
 }
+
+.logo{
+  border-radius: 25px;
+  display: inline-block;
+  padding-right: 30%;
+}
