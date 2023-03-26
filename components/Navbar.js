@@ -6,17 +6,18 @@ export default function Navbar() {
   return (
     <header className={styles.header}>
       <nav className={styles.navbar}>
-        <div>
-          <Image
-            src="/acmLogo.png"
-            width={200}
-            height={60}
-            alt="main-logo"
-            className={styles.logo}
-            priority={true}
-          />
-        </div>
-
+        <Link href="/">
+          <div>
+            <Image
+              src="/acmLogo.png"
+              width={200}
+              height={60}
+              alt="main-logo"
+              className={styles.logo}
+              priority={true}
+            />
+          </div>
+        </Link>
         <div className={styles.menu}>
           <Link href="/about" className={styles.content}>
             About

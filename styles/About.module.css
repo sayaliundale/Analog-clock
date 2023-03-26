@@ -2,7 +2,7 @@
 .container{
     max-width: 1100px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 0 3em;
 }
 
 .title{
@@ -25,4 +25,117 @@
     align-items: center;
     justify-content: center;
     padding-top: 0%;
+}
+.aboutpageChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 37.84rem;
+    height: 49.53rem;
+}
+
+.aboutpageItem {
+    position: absolute;
+    top: 18.06rem;
+    left: 37.75rem;
+    width: 42.25rem;
+    height: 33.94rem;
+    opacity: 0.4;
+}
+
+.aboutpageInner,
+.ellipseIcon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 48.69rem;
+    height: 35.84rem;
+}
+
+.ellipseIcon {
+    width: 35.81rem;
+    height: 52rem;
+}
+
+.aboutpageChild1 {
+    position: absolute;
+    top: 8.38rem;
+    left: 56.94rem;
+    width: 23.06rem;
+    height: 43.63rem;
+    opacity: 0.5;
+}
+
+.aboutpageChild2 {
+    position: absolute;
+    top: 0;
+    left: 56.75rem;
+    width: 23.25rem;
+    height: 40.94rem;
+    opacity: 0.5;
+}
+
+.aboutAcmPccoer {
+    margin-block-start: 0;
+    margin-block-end: 27px;
+    font-weight: 500;
+}
+
+.pccoerAcmStudent {
+    margin: 0;
+    font-size: var(--font-size-9xl);
+}
+
+.aboutAcmPccoerContainer {
+    margin: 0;
+    position: absolute;
+    top: 14.19rem;
+    left: 9.75rem;
+    display: inline-block;
+    width: 60.56rem;
+    font-size: inherit;
+    font-family: var(--font-montserrat);
+}
+
+.about,
+.blog,
+.events {
+    position: absolute;
+    top: 4.25rem;
+    left: 42.81rem;
+    display: inline-block;
+    width: 10.31rem;
+    height: 3.25rem;
+}
+
+.blog,
+.events {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    left: 53.75rem;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+}
+
+.events {
+    left: 64.06rem;
+}
+
+.aboutpage {
+    position: relative;
+    background-color: var(--color-black);
+    width: 100%;
+    height: 52rem;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-13xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+}
+
+.about {
+    color: white;
+    text-decoration: none;
 }

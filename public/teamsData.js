@@ -9,36 +9,6 @@ export default [
     id: 2,
     name: "Neeraj Kulkarni",
     title: "Vice Chair Person",
-    imgpath: "",
-  },
-  {
-    id: 3,
-    name: "Atharv Bharne",
-    title: "GOD",
-    imgpath: "",
-  },
-  {
-    id: 3,
-    name: "Atharv Bharne",
-    title: "GOD",
-    imgpath: "",
-  },
-  {
-    id: 3,
-    name: "Atharv Bharne",
-    title: "GOD",
-    imgpath: "",
-  },
-  {
-    id: 3,
-    name: "Atharv Bharne",
-    title: "GOD",
-    imgpath: "",
-  },
-  {
-    id: 3,
-    name: "Atharv Bharne",
-    title: "GOD",
-    imgpath: "",
+    imgpath: "/acmLogo.png",
   },
 ];
