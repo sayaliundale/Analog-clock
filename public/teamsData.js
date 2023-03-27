@@ -23,4 +23,10 @@ export default [
     title: "web team member",
     imgpath: "/acmLogo.png",
   },
+  {
+    id: 3,
+    name: "trapti",
+    title: "web team member",
+    imgpath: "/acmLogo.png",
+  },
 ];
