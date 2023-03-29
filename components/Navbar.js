@@ -31,6 +31,7 @@ export default function Navbar() {
           <Link href="/events" className={styles.content}>
             Events
           </Link>
+        
         </div>
       </nav>
     </header>
