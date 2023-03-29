@@ -1,7 +1,7 @@
 .card {
     width: 15em;
     height: 25em;
-    background: #313131;
+    background: #4a4a4a;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -18,15 +18,19 @@
     color: white;
     -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
+  
 }
 
 .img {
-    height: 50%;
-    position: absolute;
+    height: 52%;
+    position: relative;
     -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
     z-index: 1;
+   
 }
+
+
 
 .textBox {
     opacity: 0;
@@ -43,7 +47,7 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    gap: 15px;
+    gap: 5px;
     -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
     z-index: 2;
@@ -71,9 +75,9 @@
 }
 
 .card:hover>.img {
-    height: 65%;
-    -webkit-filter: blur(7px);
-    filter: blur(7px);
+    height: 55%;
+    /* -webkit-filter: blur(7px); */
+    /* filter: blur(7px); */
     -webkit-animation: anim 3s infinite;
     animation: anim 3s infinite;
 }
@@ -85,8 +89,8 @@
     }
 
     50% {
-        -webkit-transform: translateY(-20px);
-        transform: translateY(-20px);
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
     }
 
     100% {
@@ -102,8 +106,8 @@
     }
 
     50% {
-        -webkit-transform: translateY(-20px);
-        transform: translateY(-20px);
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
     }
 
     100% {
@@ -121,8 +125,9 @@
 .container{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    margin : 1em 1em ;
+    left: 1em;
+    margin : 2em 4.5em ;
     justify-content: center;
     align-items: center;
-
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
