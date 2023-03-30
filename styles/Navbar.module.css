@@ -23,4 +23,15 @@
 .logo{
   width : min(25vw, 10em);
   aspect-ratio: 1;
+  margin: o auto;
+}
+
+.content:hover {
+  color: white;
+  text-decoration: underline;
+
+}
+.activeText {
+  text-decoration: underline;
+  content: " (active)";
 }
