@@ -2,7 +2,7 @@ import Image from "next/image";
 export default [
   {
     id: 1,
-    name: "Prof. Mahendra Balkrishna Salunke ",
+    name: "Prof. Mahendra Salunke ",
     title: "Faculty Sponsor ",
     imgpath: "/acmLogo.png",
     icons:[ { src:"/icon1.png", alt:"Insta",width: 40, height: 25  },
