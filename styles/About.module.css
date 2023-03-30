@@ -13,8 +13,7 @@
 .title{
     font-size: 36px;
     margin-bottom: 20px;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 .text p{
@@ -139,7 +138,7 @@
     font-size: var(--font-size-13xl);
     color: var(--color-white);
     font-family: var(--font-inter);
-    padding: 7.5rem 2rem;
+    padding: 7rem 2rem;
 }
 
 .about {
@@ -149,7 +148,6 @@
 
 .blurBg {
     position: absolute;
-    
     top: -55%;
     left: 72%;
     width: 30%;
@@ -162,7 +160,6 @@
 
 .blurBg2{
     position: absolute;
-    
     top: 50%;
     left: 0;
     width: 30%;

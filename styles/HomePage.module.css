@@ -94,7 +94,7 @@
     .container1{
         top:2rem;
     }
-    .blurBg {
+    .blurBg{
 
         filter: blur(40px);
         box-shadow: -4rem 5rem    #410596 ;
