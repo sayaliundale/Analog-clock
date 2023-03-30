@@ -1,0 +1,96 @@
+.footer {
+  background-color: cadetblue;
+  color: black;
+  font-weight: bold;
+  padding: 2rem;
+  font-size: large;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.column {
+  flex-basis: calc(33.33333% - 2rem);
+  margin-bottom: 2rem;
+  
+}
+.column a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo {
+  max-width: 200px;
+  margin-bottom: 1rem;
+}
+
+.ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  ;
+}
+
+.ul li a {
+  color: #fff;
+}
+
+.h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 4rem;
+  }
+
+  .column {
+    flex-basis: calc(25% - 2rem);
+    margin-bottom: 0;
+  }
+}
+
+.socialLinks li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.socialLinks li:last-child {
+  margin-right: 0;
+}
+
+.socialLinks a {
+  color: #fff;
+  font-size: 2rem;
+  padding-right: 1rem;
+ 
+}
+
+.socialLinks a:hover {
+  opacity: 0.8;
+}
+
+.copy {
+    background-color: cadetblue;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .copy p {
+    margin: 0;
+    color: black;
+    padding-top: 3rem;
+    font-weight:bolder;
+  }
+
+  .column3 h3 p{
+    padding-left: 3rem;
+  }

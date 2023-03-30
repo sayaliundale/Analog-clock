@@ -1,7 +1,63 @@
 import styles from "../styles/Events.module.scss";
-import events2022Data from "../public/events2022Data";
 import { useReducer, useRef, useEffect } from "react";
-const slides = events2022Data;
+const slides = [
+  {
+    title: "ICPC",
+    subtitle: "",
+    description: "",
+    image:
+      "/ICPC1.png",
+  },
+  {
+    title: "ACM Summit",
+    subtitle: "",
+    description: "",
+    image:
+      "/ACM Summit.png",
+  },
+  {
+    title: "Blockchain",
+    subtitle: "",
+    description: "",
+    image:
+      "/Blockchain1.jpeg",
+  },
+  {
+    title: "Git Intro",
+    subtitle: "",
+    description: "",
+    image:
+      "/Git Intro.jpg",
+  },
+  {
+    title: "",
+    subtitle: "",
+    description: "",
+    image:
+      "/ACM Meet.png",
+  },
+  {
+    title: "Doodle Competition",
+    subtitle: "",
+    description: "",
+    image:
+      "/Collage.png",
+  },
+  {
+    title: "",
+    subtitle: "",
+    description: "",
+    image:
+      "/acm_4.png",
+  },
+  {
+    title: "",
+    subtitle: "",
+    description: "",
+    image:
+      "/acm_3.png",
+  },
+];
 
 function useTilt(active) {
   const ref = useRef(null);
