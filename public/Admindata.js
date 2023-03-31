@@ -26,7 +26,7 @@ export default [
       id2: 2,
       name: "Mrs. Ashwini Bhavsar ",
       title: "Faculty Sponsor ",
-      imgpath: "/acmLogo.png",
+      imgpath: "/team/AB.png",
       icons: [
         {
           src: "/instagram.png",
