@@ -4,49 +4,8 @@ import Image from "next/image";
 const About = () => {
   return (
     <div className={styles.aboutpage}>
-      {/* <Image
-        className={styles.aboutpageChild}
-        height={100}
-        width={100}
-        alt=""
-        src="/svg/ellipse-17.svg"
-      />
-      <Image
-        className={styles.aboutpageItem}
-        height={100}
-        width={100}
-        alt=""
-        src="/svg/ellipse-37.svg"
-      />
-      <Image
-        className={styles.aboutpageInner}
-        height={100}
-        width={100}
-        alt=""
-        src="/svg/ellipse-27.svg"
-      />
-      <Image
-        className={styles.ellipseIcon}
-        height={100}
-        width={100}
-        alt=""
-        src="/svg/ellipse-64.svg"
-      />
-      <Image
-        className={styles.aboutpageChild1}
-        height={100}
-        width={100}
-        alt=""
-        src="/svg/ellipse-47.svg"
-      />
-      <Image
-        className={styles.aboutpageChild2}
-        height={100}
-        width={100}
-        alt=""
-        src="/svg/ellipse-57.svg"
-      /> */}
       <div className={styles.container}>
+        <div className={styles.blurBg}></div> 
         <h1 className={styles.title}>About ACMxPCCOER</h1>
         <div className={styles.text}>
           <p>
@@ -59,7 +18,9 @@ const About = () => {
             Culture.
           </p>
         </div>
+        <div className={styles.blurBg2}></div> 
       </div>
+      
     </div>
   );
 };
