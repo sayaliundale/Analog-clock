@@ -62,6 +62,7 @@ export default function Navbar() {
           >
             Events
           </Link>
+        
         </div>
       </nav>
     </header>
