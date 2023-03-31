@@ -1,7 +1,15 @@
 import TeamCard from "../components/TeamCard";
 import teamsData from "../public/teamsData";
+import Admindata from "../public/Admindata";
 import styles from "../styles/Team.module.css";
 export default function Team() {
+  const admin = Admindata.map((admin) => {
+    return (
+      <div className={styles.container}>
+        <TeamCard key={admin.id} {...admin} />
+      </div>
+    );
+  });
   const members = teamsData.map((member) => {
     return (
       <>
@@ -13,5 +21,5 @@ export default function Team() {
       </>
     );
   });
-  return <div className={styles.container}>{members}</div>;
+  return <div><div className={styles.container}>{admin}</div><div className={styles.container}>{members}</div></div>;
 }
