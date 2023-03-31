@@ -1,51 +1,50 @@
-import Image from "next/image";
 export default [
-  {
-    id: 1,
-    name: "Prof. Mahendra Salunke",
-    title: "Faculty Sponsor",
-    imgpath: "/acmLogo.png",
-    icons: [
-      {
-        src: "/instagram.png",
-        alt: "Insta",
-        width: 18,
-        height: 17,
-        href: "https://www.instagram.com/",
-      },
-      {
-        src: "/linkedin.png",
-        alt: "linkdin",
-        width: 20,
+  // {
+  //   id1: 1,
+  //   name: "Prof. Mahendra Salunke",
+  //   title: "Faculty Sponsor",
+  //   imgpath: "/acmLogo.png",
+  //   icons: [
+  //     {
+  //       src: "/instagram.png",
+  //       alt: "Insta",
+  //       width: 18,
+  //       height: 17,
+  //       href: "https://www.instagram.com/",
+  //     },
+  //     {
+  //       src: "/linkedin.png",
+  //       alt: "linkdin",
+  //       width: 20,
 
-        height: 18,
-        href: "https://www.linkedin.com/"
-      }
-    ]
-  },
-  {
-    id: 2,
-    name: "Mrs. Ashwini Bhavsar ",
-    title: "Faculty Sponsor ",
-    imgpath: "/acmLogo.png",
-    icons: [
-      {
-        src: "/instagram.png",
-        alt: "Insta",
-        width: 18,
-        height: 17,
-        href: "https://www.instagram.com/",
-      },
-      {
-        src: "/linkedin.png",
-        alt: "linkdin",
-        width: 20,
+  //       height: 18,
+  //       href: "https://www.linkedin.com/"
+  //     }
+  //   ]
+  // },
+  // {
+  //   id2: 2,
+  //   name: "Mrs. Ashwini Bhavsar ",
+  //   title: "Faculty Sponsor ",
+  //   imgpath: "/acmLogo.png",
+  //   icons: [
+  //     {
+  //       src: "/instagram.png",
+  //       alt: "Insta",
+  //       width: 18,
+  //       height: 17,
+  //       href: "https://www.instagram.com/",
+  //     },
+  //     {
+  //       src: "/linkedin.png",
+  //       alt: "linkdin",
+  //       width: 20,
 
-        height: 18,
-        href: "https://www.linkedin.com/"
-      }
-    ]
-  },
+  //       height: 18,
+  //       href: "https://www.linkedin.com/"
+  //     }
+  //   ]
+  // },
   {
     id: 3,
     name: "Vaishnavi Bhujbal",
@@ -120,6 +119,8 @@ export default [
     name: "Nandita Nikam",
     title: "Web Master",
     imgpath: "/team/Nandita.jpg",
+    linkedinurl : "",
+    instagramurl : "",
     icons: [
       {
         src: "/instagram.png",
