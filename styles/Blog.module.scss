@@ -1,0 +1,27 @@
+
+.blurBg {
+    position: absolute;
+    z-index: -1;
+    top: -35%;
+    left: 72%;
+    width: 30%;
+    height: 70%;
+    border-radius: 50%;
+    background: linear-gradient(to top right, rgba(243, 179, 29, 0.916), rgba(204, 159, 13, 0.8));
+    filter: blur(80px);
+    box-shadow: -5rem 8rem    #410596 ;
+  }
+  
+  .blurBg2{
+    position: absolute;
+    z-index: -1;
+    top: 52%;
+    left: 0;
+    width: 30%;
+    height: 70%;
+    border-radius: 50%;
+    background: linear-gradient(to top right, rgba(243, 179, 29, 0.916), rgba(204, 159, 13, 0.8));
+    filter: blur(80px);
+    box-shadow: -5rem 8rem    #410596 ;
+  }
+  
