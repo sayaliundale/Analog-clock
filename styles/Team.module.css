@@ -2,7 +2,8 @@
 .card {
     width: 15em;
     height: 24em;
-    background: #8f8f91;
+    background: linear-gradient(80deg, #71cdeaac 20%, #2167969b 80%);
+    /* background: #e6e6e9; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -50,17 +51,20 @@
     -ms-flex-pack: center;
     justify-content: center;
     /* gap: 2px; */
-    line-height: 6px;
+    line-height: 2px;
     -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
     z-index: 2;
 }
 
 .textBox>.text {
-    font-weight: normal;
-    font-family: 'Playfair Display', serif;
+    font-weight: 650;
+    font-family: "Montserrat";
     left: 6px;
-    color: rgb(28, 0, 0);
+    line-height: 16px;
+    text-align: center;
+    font-size: small;
+    color: rgb(229, 225, 225);
   
 }
 
@@ -75,9 +79,8 @@
 
 .textBox>span {
     font-size: 14px;
-font-weight: 500;
-font-family: 'Playfair Display', serif;
-    color: rgb(60, 43, 43);
+    font-weight: 500;
+    color: rgb(214, 209, 209);
 }
 
 
@@ -144,9 +147,13 @@ font-family: 'Playfair Display', serif;
 }
 .icons {
     margin-right: 2px !important;
+    column-gap: 18px;
+    padding:15px;
+    display: flex;
 }
 .textBox{
     margin-bottom: 10px;
+    
 }
    
 @media (max-width:820px){
