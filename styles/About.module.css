@@ -1,5 +1,6 @@
 
 .container{
+    position: relative;
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 3em;
@@ -7,11 +8,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    top: 10%;
+    top: 2%;
 }
 
 .title{
-    font-size: 36px;
+    font-size: 39px;
     margin-bottom: 20px;
     text-align: center;  
 }
@@ -133,12 +134,11 @@
     position: relative;
     background-color: var(--color-black);
     width: 100%;
-    overflow: hidden;
     text-align: center;
     font-size: var(--font-size-13xl);
     color: var(--color-white);
     font-family: var(--font-inter);
-    padding: 7rem 2rem;
+    padding: 4rem 2rem;
 }
 
 .about {
@@ -148,14 +148,15 @@
 
 .blurBg {
     position: absolute;
-    top: -55%;
+    top: -60%;
     left: 72%;
-    width: 30%;
+    width: 38%;
     height: 70%;
     border-radius: 50%;
-    background: linear-gradient(to top right, rgba(243, 179, 29, 0.916), rgba(204, 159, 13, 0.8));
-    filter: blur(80px);
+    background: linear-gradient(to top right, rgba(251, 190, 48, 0.916), rgba(204, 159, 13, 0.8));
+    filter: blur(65px);
     box-shadow: -5rem 8rem    #410596 ;
+    z-index: -1;
 }
 
 .blurBg2{
@@ -166,6 +167,76 @@
     height: 70%;
     border-radius: 50%;
     background: linear-gradient(to top right, rgba(243, 179, 29, 0.916), rgba(204, 159, 13, 0.8));
-    filter: blur(80px);
+    filter: blur(65px);
     box-shadow: -5rem 8rem    #410596 ;
 }
+
+
+
+@media (max-width:991px){
+    .blurBg {
+
+        filter: blur(70px);
+    }
+    .blurBg2{
+
+        filter: blur(70px);
+    }
+    .text p{
+        font-size: 20px;
+        margin-bottom: 10px;
+        
+      
+    }
+    
+    
+    
+}
+@media (max-width:630px){
+    .text p{
+        font-size: 19px;
+        margin-bottom: 10px;
+        
+      
+    }
+    .aboutpage {
+        
+        padding: 2.5rem 2rem;
+    }
+    
+    
+    
+   
+}
+@media (max-width:554px){
+    .text p{
+        font-size: 18px;
+        margin-bottom: 10px;
+        
+      
+    }
+    .blurBg2{
+        position: absolute;
+        top: 45%;
+        left: 0;
+        width: 30%;
+        height: 50%;
+        
+    }
+    .aboutpage {
+        
+        padding: 2rem 2rem;
+    }
+    
+    
+    
+    
+}
+
+@media(max-width:400px){
+    
+
+}
+
+
+
