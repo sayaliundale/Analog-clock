@@ -1,55 +1,9 @@
 export default [
-  // {
-  //   id1: 1,
-  //   name: "Prof. Mahendra Salunke",
-  //   title: "Faculty Sponsor",
-  //   imgpath: "/acmLogo.png",
-  //   icons: [
-  //     {
-  //       src: "/instagram.png",
-  //       alt: "Insta",
-  //       width: 18,
-  //       height: 17,
-  //       href: "https://www.instagram.com/",
-  //     },
-  //     {
-  //       src: "/linkedin.png",
-  //       alt: "linkdin",
-  //       width: 20,
-
-  //       height: 18,
-  //       href: "https://www.linkedin.com/"
-  //     }
-  //   ]
-  // },
-  // {
-  //   id2: 2,
-  //   name: "Mrs. Ashwini Bhavsar ",
-  //   title: "Faculty Sponsor ",
-  //   imgpath: "/acmLogo.png",
-  //   icons: [
-  //     {
-  //       src: "/instagram.png",
-  //       alt: "Insta",
-  //       width: 18,
-  //       height: 17,
-  //       href: "https://www.instagram.com/",
-  //     },
-  //     {
-  //       src: "/linkedin.png",
-  //       alt: "linkdin",
-  //       width: 20,
-
-  //       height: 18,
-  //       href: "https://www.linkedin.com/"
-  //     }
-  //   ]
-  // },
   {
     id: 3,
     name: "Vaishnavi Bhujbal",
     title: "Chair Person",
-    imgpath: "/team/Vaishnavi Bhujbal.JPG",
+    imgpath: "/team/VaishnaviBhujbal.jpg",
     icons: [
       {
         src: "/instagram.png",
@@ -72,7 +26,7 @@ export default [
     id: 4,
     name: "Neeraj Kulkarni",
     title: "Vice Chair Person",
-    imgpath: "/team/neeraj kulkarni.png",
+    imgpath: "/team/NeerajKulkarni.jpg",
     icons: [
       {
         src: "/instagram.png",
@@ -95,7 +49,7 @@ export default [
     id: 5,
     name: "Mrudula Raju Bodke",
     title: "Promotion Lead",
-    imgpath: "/team/mrudulabodke.jpg",
+    imgpath: "/team/MrudulaBodke.jpg",
     icons: [
       {
         src: "/instagram.png",
@@ -118,7 +72,7 @@ export default [
     id: 6,
     name: "Nandita Nikam",
     title: "Web Master",
-    imgpath: "/team/Nandita.jpg",
+    imgpath: "/team/NanditaNikam.jpg",
     linkedinurl : "",
     instagramurl : "",
     icons: [
@@ -143,7 +97,7 @@ export default [
     id: 7,
     name: "Yash Kadam",
     title: "Web Master",
-    imgpath: "/team/Yash.jpg",
+    imgpath: "/team/YashKadam.jpg",
     icons: [
       {
         src: "/instagram.png",
@@ -166,7 +120,7 @@ export default [
     id: 8,
     name: "Shivam Barke",
     title: "Web Master",
-    imgpath: "/team/Shivam.png",
+    imgpath: "/team/ShivamBarke.jpg",
     icons: [
       {
         src: "/instagram.png",
@@ -189,7 +143,7 @@ export default [
     id: 9,
     name: "Aditi Hambarde",
     title: "Design Lead",
-    imgpath: "/team/aditi.jpeg",
+    imgpath: "/team/AditiHambarde.jpg",
     icons: [
       {
         src: "/instagram.png",
@@ -212,7 +166,7 @@ export default [
     id: 10,
     name: "Yuvraj Ambade",
     title: "Design Lead",
-    imgpath: "/team/Yuvraj Ambade.jpg",
+    imgpath: "/team/YuvrajAmbade.jpg",
     icons: [
       {
         src: "/instagram.png",
@@ -235,7 +189,7 @@ export default [
     id: 11,
     name: "Rakshita Khidbide",
     title: "Secretary",
-    imgpath: "/team/IMG_20220116_170710-02.jpeg",
+    imgpath: "/team/RakshitaKhidbide.jpg",
     icons: [
       {
         src: "/instagram.png",
@@ -258,7 +212,7 @@ export default [
     id: 12,
     name: "Akshata Moraskar",
     title: "Treasurer",
-    imgpath: "/team/Akshata.jpg",
+    imgpath: "/team/AkshataMoraskar.jpg",
     icons: [
       {
         src: "/instagram.png",
@@ -281,7 +235,7 @@ export default [
     id: 13,
     name: "Shaunak Jotawar",
     title: "Membership Chair",
-    imgpath: "/team/me-01.jpeg",
+    imgpath: "/team/ShaunakJotawar.jpg",
     icons: [
       {
         src: "/instagram.png",
@@ -304,7 +258,7 @@ export default [
     id: 14,
     name: "Kavita Balivada",
     title: "Technical Lead",
-    imgpath: "/team/IMG_20220516_222216.jpg",
+    imgpath: "/team/KavitaBalivada.jpg",
     icons: [
       {
         src: "/instagram.png",

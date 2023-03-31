@@ -1,5 +1,6 @@
 import styles from "../styles/Team.module.css";
 import Image from "next/image";
+import { FaLinkedinIn,FaYoutube,FaInstagram } from 'react-icons/fa';
 
 const TeamCard = (props) => {
   return (
@@ -18,14 +19,29 @@ const TeamCard = (props) => {
         {props.icons && props.icons.length > 0 && (
           <span className={styles.icons}>
             {props.icons.map((icon, index) => (
-              <a href={icon.href} key={index} className={styles.icon}>
-                <Image
-                  src={icon.src}
-                  alt={icon.alt}
-                  width={icon.width}
-                  height={icon.height}
-                />
-              </a>
+              <ul className={styles.socialLinks}>
+                {icon.alt === "Insta" && (
+                  <li key={index}>
+                    <a href={icon.href}>
+                      <FaInstagram className={styles.instagramIcon} />
+                    </a>
+                  </li>
+                )}
+                {icon.alt === "linkdin" && (
+                  <li key={index}>
+                    <a href={icon.href}>
+                      <FaLinkedinIn className={styles.linkedinIcon} />
+                    </a>
+                  </li>
+                )}
+                 {icon.alt === "Youtube" && (
+                  <li key={index}>
+                    <a href={icon.href}>
+                      <FaYoutube className={styles.YoutubeIcon} />
+                    </a>
+                  </li>
+                )}
+              </ul>
             ))}
           </span>
         )}
@@ -35,4 +51,7 @@ const TeamCard = (props) => {
 };
 
 export default TeamCard;
+
+
+
 
