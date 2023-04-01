@@ -5,7 +5,7 @@ import styles from "../styles/Team.module.css";
 export default function Team() {
   const admin = Admindata.map((admin) => {
     return (
-      <div className={styles.container}>
+      <div className={styles.container1}>
         <TeamCard key={admin.id} {...admin} />
       </div>
     );
@@ -13,11 +13,12 @@ export default function Team() {
   const members = teamsData.map((member) => {
     return (
       <>
-      <div className={styles.blurBg}></div>
+
       <div className={styles.container}>
         <TeamCard key={member.id} {...member} />
       </div>
-      <div className={styles.blurBg2}></div>
+
+
       </>
     );
   });
