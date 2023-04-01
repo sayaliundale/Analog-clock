@@ -6,18 +6,14 @@ export default [
     imgpath: "/team/VaishnaviBhujbal.jpg",
     icons: [
       {
+
         src: "/instagram.png",
         alt: "Insta",
-        width: 18,
-        height: 17,
         href: "https://www.instagram.com/",
       },
       {
         src: "/linkedin.png",
         alt: "linkdin",
-        width: 20,
-
-        height: 18,
         href: "https://www.linkedin.com/"
       }
     ]
@@ -31,16 +27,11 @@ export default [
       {
         src: "/instagram.png",
         alt: "Insta",
-        width: 18,
-        height: 17,
         href: "https://www.instagram.com/",
       },
       {
         src: "/linkedin.png",
         alt: "linkdin",
-        width: 20,
-
-        height: 18,
         href: "https://www.linkedin.com/"
       }
     ]
@@ -54,16 +45,11 @@ export default [
       {
         src: "/instagram.png",
         alt: "Insta",
-        width: 18,
-        height: 17,
         href: "https://www.instagram.com/",
       },
       {
         src: "/linkedin.png",
         alt: "linkdin",
-        width: 20,
-
-        height: 18,
         href: "https://www.linkedin.com/"
       }
     ]
@@ -79,16 +65,11 @@ export default [
       {
         src: "/instagram.png",
         alt: "Insta",
-        width: 18,
-        height: 17,
         href: "https://www.instagram.com/",
       },
       {
         src: "/linkedin.png",
         alt: "linkdin",
-        width: 20,
-
-        height: 18,
         href: "https://www.linkedin.com/"
       }
     ]
@@ -102,16 +83,11 @@ export default [
       {
         src: "/instagram.png",
         alt: "Insta",
-        width: 18,
-        height: 17,
         href: "https://www.instagram.com/",
       },
       {
         src: "/linkedin.png",
         alt: "linkdin",
-        width: 20,
-
-        height: 18,
         href: "https://www.linkedin.com/"
       }
     ]
@@ -125,16 +101,11 @@ export default [
       {
         src: "/instagram.png",
         alt: "Insta",
-        width: 18,
-        height: 17,
         href: "https://www.instagram.com/",
       },
       {
         src: "/linkedin.png",
         alt: "linkdin",
-        width: 20,
-
-        height: 18,
         href: "https://www.linkedin.com/"
       }
     ]
@@ -148,16 +119,11 @@ export default [
       {
         src: "/instagram.png",
         alt: "Insta",
-        width: 18,
-        height: 17,
         href: "https://www.instagram.com/",
       },
       {
         src: "/linkedin.png",
         alt: "linkdin",
-        width: 20,
-
-        height: 18,
         href: "https://www.linkedin.com/"
       }
     ]
@@ -171,16 +137,11 @@ export default [
       {
         src: "/instagram.png",
         alt: "Insta",
-        width: 18,
-        height: 17,
         href: "https://www.instagram.com/",
       },
       {
         src: "/linkedin.png",
         alt: "linkdin",
-        width: 20,
-
-        height: 18,
         href: "https://www.linkedin.com/"
       }
     ]
@@ -194,16 +155,11 @@ export default [
       {
         src: "/instagram.png",
         alt: "Insta",
-        width: 18,
-        height: 17,
         href: "https://www.instagram.com/",
       },
       {
         src: "/linkedin.png",
         alt: "linkdin",
-        width: 20,
-
-        height: 18,
         href: "https://www.linkedin.com/"
       }
     ]
@@ -217,16 +173,11 @@ export default [
       {
         src: "/instagram.png",
         alt: "Insta",
-        width: 18,
-        height: 17,
         href: "https://www.instagram.com/",
       },
       {
         src: "/linkedin.png",
         alt: "linkdin",
-        width: 20,
-
-        height: 18,
         href: "https://www.linkedin.com/"
       }
     ]
@@ -240,16 +191,11 @@ export default [
       {
         src: "/instagram.png",
         alt: "Insta",
-        width: 18,
-        height: 17,
         href: "https://www.instagram.com/",
       },
       {
         src: "/linkedin.png",
         alt: "linkdin",
-        width: 20,
-
-        height: 18,
         href: "https://www.linkedin.com/"
       }
     ]
@@ -263,16 +209,11 @@ export default [
       {
         src: "/instagram.png",
         alt: "Insta",
-        width: 18,
-        height: 17,
         href: "https://www.instagram.com/",
       },
       {
         src: "/linkedin.png",
         alt: "linkdin",
-        width: 20,
-
-        height: 18,
         href: "https://www.linkedin.com/"
       }
     ]
