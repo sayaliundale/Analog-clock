@@ -23,15 +23,19 @@
 .logo{
   width : min(25vw, 10em);
   aspect-ratio: 1;
-  margin: o auto;
+  margin: 0 auto;
 }
 
 .content:hover {
-  color: white;
+  color: rgb(192, 190, 190);
   text-decoration: underline;
+  text-underline-offset: 10px;
 
 }
 .activeText {
   text-decoration: underline;
   content: " (active)";
+  text-underline-offset: 10px;
+  color: rgb(198, 196, 196);
+  
 }

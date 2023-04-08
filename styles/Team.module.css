@@ -1,8 +1,8 @@
-
 .card {
     width: 15em;
     height: 24em;
-    background: #8f8f91;
+    background: linear-gradient(80deg, #49bbdeac 20%, #105c8f9b 80%);
+    /* background: #e6e6e9; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -23,18 +23,20 @@
 }
 
 .img {
-    margin-top: 1.5em;
+    margin-top: 2em;
     height: 65%;
     position: relative;
     -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
     z-index: 1;
+    object-fit: cover;
    
 }
 
 
 
 .textBox {
+    top: 10px;
     opacity: 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -50,22 +52,25 @@
     -ms-flex-pack: center;
     justify-content: center;
     /* gap: 2px; */
-    line-height: 6px;
+    line-height: 2px;
     -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
     z-index: 2;
 }
 
 .textBox>.text {
-    font-weight: normal;
-    font-family: 'Playfair Display', serif;
+
+    font-weight: 650;
+    font-family: "Montserrat";
     left: 6px;
-    color: rgb(28, 0, 0);
+    line-height: 14px;
+    text-align: center;
+    color: rgb(229, 225, 225);
   
 }
 
 .textBox>.head {
-    font-size: 20px;
+    font-size: 18px;
     
 }
 
@@ -75,9 +80,9 @@
 
 .textBox>span {
     font-size: 14px;
-font-weight: 500;
-font-family: 'Playfair Display', serif;
-    color: rgb(60, 43, 43);
+    font-weight: 500;
+    align-items: center;
+    color: rgb(182, 172, 172);
 }
 
 
@@ -140,15 +145,53 @@ font-family: 'Playfair Display', serif;
     margin : 2em 4.5em ;
     justify-content: center;
     align-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 0.25fr));
 }
-.icons {
-    margin-right: 2px !important;
+.icons { 
+    padding:10px;
+    display: flex;
 }
 .textBox{
     margin-bottom: 10px;
+    
 }
-   
+.socialLinks li {
+    display: inline-block;
+    align-items: center;
+  }
+  
+
+ 
+  
+  .socialLinks a:hover {
+    opacity: 0.9;
+
+  }
+  .instagramIcon {
+    color: #da2e67;
+     left:12px;
+    font-size: 1rem;
+    margin-right: 10px;
+    bottom: 8px;
+  }
+
+  
+  .linkedinIcon {
+    color: #288fde;
+    right:15px;
+    font-size: 1rem;
+    margin-right: 20px;
+    bottom: 8px;
+  }
+  
+  .YoutubeIcon {
+    color: #c13a53;
+    font-size: 1.4rem;
+    margin-right: 20px;
+    bottom: 9px;
+    align-items: center;
+  }
+  
 @media (max-width:820px){
     .textBox {
         opacity: 1;
