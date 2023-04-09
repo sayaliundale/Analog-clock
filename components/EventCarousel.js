@@ -1,7 +1,8 @@
 import styles from "../styles/Events.module.scss";
 import { useReducer, useRef, useEffect } from "react";
-import events2022Data from "../public/events2022Data";
-const slides = events2022Data;
+//const slides = "events2022Data.js";
+import slides from "../public/events2022Data";
+
 function useTilt(active) {
   const ref = useRef(null);
 
@@ -52,14 +53,14 @@ const slidesReducer = (state, event) => {
   if (event.type === "NEXT") {
     return {
       ...state,
-      slideIndex: (state.slideIndex + 1) % slides.length,
+      slideIndex: (state.slideIndex - 1) % slides.length,
     };
   }
   if (event.type === "PREV") {
     return {
       ...state,
       slideIndex:
-        state.slideIndex === 0 ? slides.length - 1 : state.slideIndex - 1,
+        state.slideIndex === 0 ? (slides.length + 1) % slides.length  : (state.slideIndex + 1) % slides.length,
     };
   }
 };
@@ -75,7 +76,7 @@ function Slide({ slide, offset }) {
       data-active={active}
       style={{
         "--offset": offset,
-        "--dir": offset === 0 ? 0 : offset > 0 ? 1 : -1,
+        "--dir": (offset === 0 ? 0 : offset > 0 ? 1 : + 1),
       }}
     >
       {/* below div is for cool background image effect but it takes the whole page hence commented.  */}
@@ -114,4 +115,4 @@ export default function EventCarousel() {
       <button onClick={() => dispatch({ type: "NEXT" })}>›</button>
     </div>
   );
-}
+  }
