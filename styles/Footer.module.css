@@ -59,6 +59,11 @@
   }
 }
 
+
+.socialLinks {
+  left: -40px;
+}
+
 .socialLinks li {
   display: inline-block;
   margin-right: 1rem;

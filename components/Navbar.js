@@ -43,14 +43,14 @@ export default function Navbar() {
             Team
           </Link>
           <Link
-            href="/blog"
+            href="/blogs"
             className={`${styles.content} ${
-              router.pathname === "/blog"
+              router.pathname === "/blogs"
                 ? `${styles.active} ${styles.activeText}`
                 : ""
             }`}
           >
-            Blog
+            Blogs
           </Link>
           <Link
             href="/events"
