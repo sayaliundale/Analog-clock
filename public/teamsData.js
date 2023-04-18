@@ -3,7 +3,7 @@ export default [
     id: 3,
     name: "Vaishnavi Bhujbal",
     title: "Chair Person",
-    imgpath: "/team/VaishnaviBhujbal.jpg",
+    imgpath: "/team/ChaiVaishnavi.jpg",
     icons: [
       {
         src: "/instagram.png",

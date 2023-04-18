@@ -16,7 +16,7 @@ export default [
       id: 2,
       name: "Mrs. Ashwini Bhavsar ",
       title: "Faculty Sponsor ",
-      imgpath: "/team/AshwiniBhavsar.jpg",
+      imgpath: "/team/Ashwini.jpg",
       icons: [
         {
           alt: "Youtube",

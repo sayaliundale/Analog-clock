@@ -1,5 +1,5 @@
 .footer {
-  background-color: cadetblue;
+  background-color: #19A7CE;
   color: black;
   font-weight: bold;
   padding: 2rem;
@@ -85,7 +85,7 @@
 }
 
 .copy {
-    background-color: cadetblue;
+    background-color: #19A7CE;
     text-align: center;
     padding: 1rem;
   }
