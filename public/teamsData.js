@@ -72,7 +72,7 @@ export default [
     id: 6,
     name: "Nandita Nikam",
     title: "Web Master",
-    imgpath: "/team/NanditaNikam.jpg",
+    imgpath: "/team/Nandita2.jpg",
     linkedinurl : "",
     instagramurl : "",
     icons: [
