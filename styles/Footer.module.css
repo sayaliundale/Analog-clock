@@ -1,6 +1,6 @@
 .footer {
-  background-color: #19A7CE;
-  color: black;
+  background-color: transparent;
+  color: white;
   font-weight: bold;
   padding: 2rem;
   font-size: large;
@@ -14,32 +14,36 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
-.column {
-  flex-basis: calc(33.33333% - 2rem);
-  margin-bottom: 2rem;
-  
+.column1{
+  position:relative;
+  left:1rem;
 }
-.column a {
-    color: black;
+.column2{
+  position:relative;
+  left:2.8rem;
+}
+
+.column1 a {
+    color: white;
     font-weight: bold;
     text-decoration: none;
 }
 
 .logo {
-  max-width: 200px;
+  max-width: 180px;
   margin-bottom: 1rem;
 }
 
-.ul {
+ .ul {
   list-style: none;
   margin: 0;
   padding: 0;
   ;
 }
 
-.ul li a {
+ .ul li a {
   color: #fff;
+  list-style: none;
 }
 
 .h3 {
@@ -48,25 +52,57 @@
   margin-bottom: 1rem;
 }
 
-@media (min-width: 768px) {
-  .footer {
-    padding: 4rem;
-  }
+@media (max-width: 785px) {
+  .logo{
+    max-width: 140px;
 
+  }
+  .content{
+    margin:3rem;
+  }
+  
   .column {
-    flex-basis: calc(25% - 2rem);
+    position:relative;
     margin-bottom: 0;
   }
-}
+  
+  .column2{
+    position:relative;
+    left:-0.4rem;
 
+  }
+}
+@media(max-width:550px ){
+  .logo{
+    position:relative;
+    left:1rem;
+
+  }
+  .column,.column1,.column2,.column3{
+    position:relative;
+    left:3rem;
+  }
+  .column p,.column3 p{
+    position:relative;
+    margin-left:-3rem;
+  }
+  .socialLinks{
+    margin-left:-2rem;
+  }
+  .copy p{
+    position:relative;
+    width:20rem;
+    left: 1rem;
+  }
+
+}
 
 .socialLinks {
   left: -40px;
 }
-
 .socialLinks li {
   display: inline-block;
-  margin-right: 1rem;
+ 
 }
 
 .socialLinks li:last-child {
@@ -85,14 +121,14 @@
 }
 
 .copy {
-    background-color: #19A7CE;
+    background-color:transparent;
     text-align: center;
     padding: 1rem;
   }
   
   .copy p {
     margin: 0;
-    color: black;
+    color: white;
     padding-top: 3rem;
     font-weight:bolder;
   }

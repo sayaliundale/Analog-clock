@@ -3,7 +3,9 @@ import { useRouter } from "next/router";
 import styles from "../styles/Navbar.module.css";
 import Image from "next/image";
 
+
 export default function Navbar() {
+  
   const router = useRouter();
 
   return (
@@ -21,7 +23,8 @@ export default function Navbar() {
             />
           </div>
         </Link>
-        <div className={styles.menu}>
+        <div className={ styles.menu}>
+
           <Link
             href="/about"
             className={`${styles.content} ${
