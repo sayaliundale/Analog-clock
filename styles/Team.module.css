@@ -96,8 +96,6 @@
 
 .card:hover>.img {
     height: 68%;
-    /* -webkit-filter: blur(7px); */
-    /* filter: blur(7px); */
     -webkit-animation: anim 3s infinite;
     animation: anim 3s infinite;
 }

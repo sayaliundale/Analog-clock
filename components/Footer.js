@@ -7,10 +7,9 @@ const Footer = () => {
       <div className={styles.content}>
         <div className={styles.column}>
           <img src="/acmLogo.png" alt="logo" className={styles.logo} />
-          <p>Laxminagar, Ravet</p>
-          <p>Pune, India</p>
+          <p>Laxminagar, Ravet, Pune, India</p>
         </div>
-        <div className={styles.column}>
+        <div className={styles.column1}>
           <h3>Quick Links</h3>
           <ul>
             <li>
@@ -24,7 +23,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className={styles.column1}>
+        <div className={styles.column2}>
           <h3>Social Links</h3>
           <ul className={styles.socialLinks}>
             <li>
