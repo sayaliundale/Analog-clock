@@ -22,7 +22,7 @@ export default function HomePage() {
           <li className={styles.eventItem}>
             <div className={styles.eventDetails}>
               <h4 className={styles.eventName}></h4>
-              <p className={styles.eventVenue}>Venue : Lab no. 516, 517 </p>
+              <p className={styles.eventVenue}>Venue : Lab no.<span className={styles.span}> 516, 517</span>  </p>
               <a
                 href="https://technovate.pccoer.org/"
                 className={styles.eventRegistration}
