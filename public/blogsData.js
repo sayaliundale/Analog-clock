@@ -1,5 +1,6 @@
 export default [
   {
+    id: 1,
     title: "Android Development VS Web Development | Reality",
     author: "Omkar Ghotekar",
     slug: "android-vs-web",
@@ -79,6 +80,7 @@ export default [
         `,
   },
   {
+    id: 2,
     title: "Augmenting The Virtual",
     author: "Aman Hanspal",
     slug: "augmenting-the-virtual",
@@ -92,6 +94,7 @@ export default [
         `,
   },
   {
+    id: 3,
     title: "Casting Intelligence",
     author: "Chaitanya Kamble",
     slug: "casting-intelligence",
@@ -108,6 +111,7 @@ export default [
         `,
   },
   {
+    id: 4,
     title: "Cryptocurrency- Are they great or a threat",
     author: "Pranav Yede",
     slug: "cryptocurrency-are-they-great-or-a-threat",
@@ -134,6 +138,7 @@ export default [
     `,
   },
   {
+    id: 5,
     title: "The Premise of Cryptocurrency",
     author: "Shivam Barke",
     slug: "the-premise-of-cryptocurrency",
@@ -145,6 +150,6 @@ export default [
     Blockchain is also used in other areas such as smart contracts, video games, healthcare, etc. </p>
     <p><br/></p>
     <p>In conclusion, Cryptocurrencies are becoming widely  accepted and possess a bright future ahead as a  technological field.</p>
-    `
+    `,
   },
 ];
