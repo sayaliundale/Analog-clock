@@ -4,7 +4,7 @@
   font-weight: bold;
   padding: 2rem;
   font-size: large;
-  top:180px;
+  top:250px;
 }
 
 .content {
@@ -64,6 +64,8 @@
   .column {
     position:relative;
     margin-bottom: 0;
+    
+    
   }
   
   .column2{
@@ -78,16 +80,20 @@
     left:1rem;
 
   }
+  
   .column,.column1,.column2,.column3{
     position:relative;
     left:3rem;
+    
   }
+  
   .column p,.column3 p{
     position:relative;
     margin-left:-3rem;
   }
   .socialLinks{
     margin-left:-2rem;
+    width:20rem;
   }
   .copy p{
     position:relative;

@@ -143,12 +143,9 @@
   .eventItem {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #e5e3e3;
     padding: 20px 20px;
   }
-  
 
-  
   .eventName {
     font-size: 18px;
     font-weight: bold;
@@ -186,6 +183,7 @@
 
   
 .container{
+    top:3rem;
     display : flex;
     flex-direction: column;
     flex-grow:1;
@@ -268,13 +266,49 @@
 
         filter: blur(60px);
     }
+    .eventsCard:hover{
+        transform: none;
+    }
     
    
 }
 @media (max-width:554px){
     .container1{
         top:2rem;
+        
     }
+    .heading{
+        font-size: 1.6rem;
+        right:1rem;
+        
+    }
+    
+    .eventsCard{
+        width:18rem;
+        height:33rem;
+        margin-left: 1rem;
+       
+        
+    }
+    
+    .eventVenue{
+        bottom:13rem;
+        width:10rem;
+    }
+    .img1{
+        width:15rem;
+        top:-5rem;
+        
+    }
+    .eventRegistration{
+        bottom:10rem;
+    }
+    
+    
+    .span{
+        top:2rem;
+    }
+    
     .blurBg{
 
         filter: blur(40px);
@@ -295,6 +329,9 @@
         top:0;
        
     }
+    .eventsCard:hover{
+        transform: scale(1);
+    }
     .blurBg {
 
         filter: blur(50px);
@@ -311,6 +348,12 @@
         top:30%;
     }
 
+}
+@media (max-width:414px) {
+    .eventsCard:hover{
+        transform: none;
+    }
+    
 }
 
 @media (max-width:820px){
