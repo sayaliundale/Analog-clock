@@ -6,20 +6,21 @@ import blogsData from "../../public/blogsData";
 export default function Blog() {
   const blogs = blogsData.map((blog) => {
     return (
-        <BlogCard
-          title={blog.title}
-          author={blog.author}
-          slug={blog.slug}
-          thumb={blog.thumb}
-        />
+      <BlogCard
+        key={blog.id}
+        title={blog.title}
+        author={blog.author}
+        slug={blog.slug}
+        thumb={blog.thumb}
+      />
     );
   });
   return (
     <div className={style.container}>
       <div className={style.container1}>
-          <div className={styles.flexContainer} id="blogContainer">
-            {blogs}
-          </div>
+        <div className={styles.flexContainer} id="blogContainer">
+          {blogs}
+        </div>
       </div>
     </div>
   );
